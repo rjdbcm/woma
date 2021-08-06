@@ -9,7 +9,7 @@ for the reference compiler implementation written in Python.
 ## goals
 
 - Formally verifiable CPython extension specification language. 
-- Robust and consistent foreign function interface using libffi (currently using the CPython ctypes module).
+- Robust and consistent foreign function interface using libffi (currently plan on using the CPython ctypes module).
 - Ultra-smooth runtime exception handling with useful warnings.
 - Demonic non-determinism, favors type-negotiation over termination.
 - Terseness and beauty, in order to make code both concise ___and___ readable.
