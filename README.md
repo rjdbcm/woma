@@ -23,3 +23,10 @@ for the reference compiler implementation written in Python.
 - `declarative`
 - [`functional`](https://towardsdatascience.com/why-developers-are-falling-in-love-with-functional-programming-13514df4048e?gi=3361de79dc98)
 - [`constrained logic`](https://www.cse.unsw.edu.au/~tw/brwhkr08.pdf)
+
+
+## contributing
+
+If you'd like to help with the woma standard as a developer check out the Issues page or fork and make a pull request.
+Now, for early woma adopters that do not wish to do any technical writing, reporting inconsistencies or contradictions is always appreciated.
+If you'd like to help out financially, [Aspidites](https://github.com/rjdbcm/Aspidites)' maintainer accepts [Liberapay](https://liberapay.com/rjdbcm/).
