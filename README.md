@@ -2,6 +2,9 @@
 This is the README for the woma language specification; see [Aspidites](https://github.com/rjdbcm/Aspidites)
 for the reference compiler implementation written in Python.
 
+## specification
+Woma has a specification that is published as a series of WEEP(Woma Extension & Evaluation Proposals), see [QQ.md](QQ.md).
+
 ## motivation
 
 - Formal verification is an afterthought in most high-level programming languages. e.g. PEP-484 for Python, JML for Java, SPARK for Ada (pre-2014) etc.
