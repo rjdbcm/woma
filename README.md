@@ -1,4 +1,4 @@
-# woma language
+# woma programming language
 This is the README for the woma language specification; see [Aspidites](https://github.com/rjdbcm/Aspidites)
 for the reference compiler implementation written in Python.
 
