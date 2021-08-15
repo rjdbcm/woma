@@ -6,6 +6,6 @@ A person must evaluate Woma.
 The person must create the Woma-Extension-and-Evaluation-Proposal.
 WEEP stands for Woma-Extension-and-Evaluation-Proposal.
 QQ describes Woma, and the WEEP must be added to QQ. 
-The WEEP must be written in English. 
+#WEEP2
 The WEEP must have an entry in "FORMAL.txt". 
 "FORMAL.txt" is written in Attempto-Controlled-English.
