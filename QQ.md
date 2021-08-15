@@ -11,3 +11,6 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 2. PEP 561 stubs are generated as is py.typed.
 3. The validated Python is converted to Cython. (cdefs and cpdefs included)
 4. Cython compiles using the host architecture's compiler and linker.
+
+## WEEP2 14-Aug-2021 FORMAL.txt and Attempto Controlled English
+Every WEEP must be formalized in FORMAL.txt using Attempto Controlled English.
