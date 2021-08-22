@@ -1,5 +1,5 @@
 # Woma Programming Language
-This is the README for the Woma Programming Language specification; see [Aspidites](https://github.com/rjdbcm/Aspidites) for the reference compiler implementation written in Python. If this wasn't what you were looking for there is another project [WoMa](http://gh.com/srbonilla/WoMa) that uses the PyPI namespace woma. 
+This is the README for the Woma Programming Language specification; see [Aspidites](https://github.com/rjdbcm/Aspidites) for the reference compiler implementation written in Python. If this wasn't what you were looking for there is another project [WoMa](http://github.com/srbonilla/WoMa) that uses the PyPI namespace woma. 
 
 ## Specification
 Woma has a specification that is published as a series of WEEP(Woma Extension & Evaluation Proposals), see [QQ.md](QQ.md).
