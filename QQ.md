@@ -16,6 +16,7 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 Every WEEP must be formalized in FORMAL.txt using Attempto Controlled English.
 
 ## WEEP3 12-Oct-2021 WEEP2 SUPERSEDED
+~~Every WEEP must be formalized in FORMAL.txt using Attempto Controlled English.~~
 Every WEEP will be here from now on.
 
 ## WEEP4 12-Oct-2021 WEEP1 SUPERSEDED
