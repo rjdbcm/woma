@@ -14,3 +14,15 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 
 ## WEEP2 14-Aug-2021 FORMAL.txt and Attempto Controlled English
 Every WEEP must be formalized in FORMAL.txt using Attempto Controlled English.
+
+## WEEP3 12-Oct-2021 WEEP2 SUPERSEDED
+Every WEEP will be here from now on.
+
+## WEEP4 12-Oct-2021 WEEP1 SUPERSEDED
+Woma is a compiled language targetting CPython extensions and [Aspidites](https://github.com/rjdbcm/Aspidites) is the reference implementation.
+Woma can be compiled to Python, Cython, or C but generally the Aspidites toolchain works in the following order:
+1. Woma is compiled to Python and checked for static and bytecode validity. (without parsable cdef and cpdef statements)
+~~2. PEP 561 stubs are generated as is py.typed.~~
+2. py.typed is generated.
+3. The validated Python is converted to Cython. (cdefs and cpdefs included)
+4. Cython compiles using the host architecture's compiler and linker.
