@@ -27,3 +27,30 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 2. py.typed is generated.
 3. The validated Python is converted to Cython. (cdefs and cpdefs included)
 4. Cython compiles using the host architecture's compiler and linker.
+
+## WEEP5 13-Oct-2021 Trigrams and Reserved Symbols
+Trigrams are the preferred way of implementing language, as opposed to standard library, features. 
+
+The following symbols are reserved for language features having to do with scope:
+- <!>
+- <@>
+- <#>
+- <$>
+- <%>
+- <^>
+- <&>
+- <*>
+- <_>
+- <+>
+
+The following symbols are reserved for language features having to do with higher-order function manipulation:
+- (!)
+- (@)
+- (#)
+- ($)
+- (%)
+- (^)
+- (&)
+- (*)
+- (_)
+- (+)
