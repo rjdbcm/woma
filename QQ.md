@@ -57,4 +57,9 @@ The following symbols are reserved for language features having to do with highe
 
 ## WEEP6 14-Oct-2021 Function Arguments
 Arguments must be specified with a bind variable, a default value, and a contract imposing constraints.
+e.g. 
+```
+x = 0 -> number
+
+```
 
