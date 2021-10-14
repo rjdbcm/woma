@@ -62,4 +62,4 @@ x = 0 -> number
 ```
 
 ## WEEP7 14-Oct-2021 Superseding WEEPs
-Superseding WEEPs shoud be formatted as in the following example: `## WEEPX 03-Jun-1993 WEEPX SUPERSEDED`. Any textual information from the superseded WEEP should be kept, using strikethrough text to remove superseded text.
+Superseding WEEPs shoud be formatted as in the following example: `## WEEPY 03-Jun-1993 WEEPX SUPERSEDED`. Any textual information from the superseded WEEP should be kept, using strikethrough text to remove superseded text.
