@@ -64,7 +64,7 @@ x = 0 -> number
 ## WEEP7 14-Oct-2021 Superseding WEEPs
 Superseding WEEPs shoud be formatted as in the following example: `## WEEPY 03-Jun-1993 WEEPX SUPERSEDED`. Any textual information from the superseded WEEP should be kept, using strikethrough text to remove superseded text.
 
-## WEEP8 14-Oct-2021 Assigning the (!) Trigram to Functional Pattern Matching
+## WEEP8 14-Oct-2021 Assigning the (!) Trigram to Pattern Matching
 The (!) trigram is to be used for matching indented cases to the right hand bind variable. These cases should be followed by a colon and the action to be preformed upon a successful match. The entire structure looks like as follows:
 
 ```
