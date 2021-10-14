@@ -72,3 +72,11 @@ The (!) trigram is to be used for matching indented cases to the right hand bind
   case1: action1
   case2: action2
 ```
+
+## WEEP9 14-Oct-2021 Adding a Left-hand Variable Binding to (!)
+Similar to WEEP8 but implemented as follows.
+```
+bindvar1(!)bindvar2
+  case1: action1
+  case2: action2
+```
