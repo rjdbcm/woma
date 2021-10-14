@@ -32,28 +32,28 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 Trigrams are the preferred way of implementing language, as opposed to standard library, features. 
 
 The following symbols are reserved for language features having to do with scope:
-- <!>
-- <@>
-- <#>
-- <$>
-- <%>
-- <^>
-- <&>
-- <*>
-- <_>
-- <+>
+- `<!>`
+- `<@>`
+- `<#>`
+- `<$>`
+- `<%>`
+- `<^>`
+- `<&>`
+- `<*>`
+- `<_>`
+- `<+>`
 
 The following symbols are reserved for language features having to do with higher-order function manipulation:
-- (!)
-- (@)
-- (#)
-- ($)
-- (%)
-- (^)
-- (&)
-- (*)
-- (_)
-- (+)
+- `(!)`
+- `(@)`
+- `(#)`
+- `($)`
+- `(%)`
+- `(^)`
+- `(&)`
+- `(*)`
+- `(_)`
+- `(+)`
 
 ## WEEP6 14-Oct-2021 Function Arguments
 Arguments must be specified with a bind variable, a default value, and a contract imposing constraints such as in the following example:
