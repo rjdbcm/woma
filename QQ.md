@@ -60,6 +60,5 @@ Arguments must be specified with a bind variable, a default value, and a contrac
 e.g. 
 ```
 x = 0 -> number
-
 ```
 
