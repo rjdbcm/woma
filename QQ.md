@@ -82,4 +82,4 @@ bindvar1(!)bindvar2
 ```
 
 ## WEEP10 14-Oct-2021 Arithmetic and Nullity
-No arithmetic operation should raise an error. Instead they should be absorbed into nullity. Nullity should be equal and identical to itself but able to carry slotted attributes of the failing operation.
+No arithmetic operation should raise an error. Instead they should be absorbed into nullity. Nullity should be equal and identical to itself but able to carry slotted attributes of the failing operation. The reserved symbol for nullity is the literal ``/0``.
