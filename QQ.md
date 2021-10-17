@@ -96,3 +96,6 @@ The following symbols are reserved for language features having to do with colle
 - `[*]`
 - `[_]`
 - `[+]`
+
+## WEEP12 17-Oct-2021 The Woma Interactive Shell and Woma(terse)
+There will be an interpreted dialect of Woma, Woma(terse) exclusively for Woma Interactive Shell(WIS) use. The reason for exclusivity is to avoid confusion. In the WIS, the semicolon ``;`` replaces the indentation normally used.
