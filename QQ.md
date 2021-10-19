@@ -32,28 +32,27 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 Trigrams are the preferred way of implementing language, as opposed to standard library, features. 
 
 The following symbols are reserved for language features having to do with scope:
-- `<!>`
-- `<@>`
-- `<#>`
-- `<$>`
-- `<%>`
-- `<^>`
-- `<&>`
-- `<*>`
-- `<_>`
-- `<+>`
+- `<!>` Unassigned
+- `<@>` Assigned to enter a loop scope
+- `<#>` Assigned to enter a context scope
+- `<$>` Unassigned
+- `<%>` Unassigned
+- `<^>` Assigned to yield to outer scope
+- `<&>` Unassigned
+- `<*>` Assigned to return to outer scope
+- `<_>` Unassigned
+- `<+>` Unassigned
 
 The following symbols are reserved for language features having to do with higher-order function manipulation:
-- `(!)`
-- `(@)`
-- `(#)`
-- `($)`
-- `(%)`
-- `(^)`
-- `(&)`
-- `(*)`
-- `(_)`
-- `(+)`
+- `(!)` Assigned to match construct
+- `(@)` Unassigned
+- `(#)` Unassigned
+- `($)` Unassigned
+- `(%)` Unassigned
+- `(^)` Unassigned
+- `(&)` Unassigned
+- `(*)` Unassigned
+- `(+)` Unassigned
 
 ## WEEP6 14-Oct-2021 Function Arguments
 Arguments must be specified with a bind variable, a default value, and a contract imposing constraints such as in the following example:
@@ -86,19 +85,22 @@ No arithmetic operation should raise an error. Instead they should be absorbed i
 
 ## WEEP11 16-Oct-2021 Reserved Trigrams for Collection Manipulation
 The following symbols are reserved for language features having to do with collection manipulation:
-- `[!]`
-- `[@]`
-- `[#]`
-- `[$]`
-- `[%]`
-- `[^]`
-- `[&]`
-- `[*]`
-- `[_]`
-- `[+]`
+- `[!]` Unassigned
+- `[@]` Unassigned
+- `[#]` Unassigned
+- `[$]` Unassigned
+- `[%]` Unassigned
+- `[^]` Unassigned
+- `[&]` Unassigned
+- `[*]` Unassigned
+- `[_]` Unassigned
+- `[+]` Unassigned
 
 ## WEEP12 17-Oct-2021 The Woma Interactive Shell and Woma(terse)
 There will be an interpreted dialect of Woma, Woma(terse) exclusively for Woma Interactive Shell(WIS) use. The reason for exclusivity is to avoid confusion. In the WIS, the semicolon ``;`` replaces the indentation normally used.
 
 ## WEEP13 17-Oct-2021 Syntactically Enforced Default Parameter Values and Constraints
 For functions that take parameters, the parameters must be specified with a (preferably reasonable) default value and a constraining contract.
+
+## WEEP14 19-Oct-2021 Nesting Constructs Prohibited
+Function definitions and loops may not be nested.
