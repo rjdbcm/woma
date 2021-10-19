@@ -105,6 +105,6 @@ For functions that take parameters, the parameters must be specified with a (pre
 ## WEEP14 19-Oct-2021 Nesting Constructs Prohibited
 Function definitions and loops may not be nested.
 
-## WEEP14 19-Oct-2021 Procedural Pattern Matching
+## WEEP15 19-Oct-2021 Procedural Pattern Matching
 The match Trigram is limited function calls for each case and will not bind to a variable. 
 
