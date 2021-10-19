@@ -32,9 +32,9 @@ Woma can be compiled to Python, Cython, or C but generally the Aspidites toolcha
 Trigrams are the preferred way of implementing language, as opposed to standard library, features. 
 
 The following symbols are reserved for language features having to do with scope:
-- `<!>` Unassigned
+- `<!>` Assigned to enter a context scope
 - `<@>` Assigned to enter a loop scope
-- `<#>` Assigned to enter a context scope
+- `<#>` Unassigned
 - `<$>` Unassigned
 - `<%>` Unassigned
 - `<^>` Assigned to yield to outer scope
@@ -104,3 +104,7 @@ For functions that take parameters, the parameters must be specified with a (pre
 
 ## WEEP14 19-Oct-2021 Nesting Constructs Prohibited
 Function definitions and loops may not be nested.
+
+## WEEP14 19-Oct-2021 Procedural Pattern Matching
+The match Trigram is limited function calls for each case and will not bind to a variable. 
+
