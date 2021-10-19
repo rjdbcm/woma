@@ -106,5 +106,18 @@ For functions that take parameters, the parameters must be specified with a (pre
 Function definitions and loops may not be nested.
 
 ## WEEP15 19-Oct-2021 Procedural Pattern Matching
-The match Trigram is limited function calls for each case and will not bind to a variable. 
+The match Trigram is limited function calls for each case and will not bind to a variable.
+
+## WEEP16 19-Oct-2021 Bitwise Operations, Arithmetic, and Comparison.
+Bitwise operations, arithmetic expressions and comparison expressions are identical to their Python counterparts with the addition of factorial.
+Their precedence is as follows:
+- !
+- **
+- +, - (sign operation)
+- *, /, //, % 
+- +, - (addition/subtraction)
+- <<, >>
+- &
+- ^
+- |
 
