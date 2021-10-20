@@ -120,4 +120,9 @@ Their precedence is as follows:
 - &
 - ^
 - |
-
+## WEEP17 19-Oct-2021 Woma Style Guide
+- Endeavour to name context managers either when bound using contextmanager or when declared in CamelCase, preferably both.
+- Matching is limited to single-letter variables due to bug, the will be maintained as the style until Aspidites 2.0.0 for backwards compatibility.
+- Don't add types to names(Hungarian notation).
+- Name normal functions using snake_case.
+- Keep the line width under 92 characters.
