@@ -109,7 +109,7 @@ Function definitions and loops may not be nested.
 The match Trigram is limited function calls for each case and will not bind to a variable.
 
 ## WEEP16 19-Oct-2021 Bitwise Operations, Arithmetic, and Comparison.
-Bitwise operations, arithmetic expressions and comparison expressions are identical to their Python counterparts with the addition of factorial.
+Bitwise operations and arithmetic operators are identical to their Python counterparts with the addition of factorial.
 Their precedence is as follows:
 - !
 - **
@@ -120,6 +120,16 @@ Their precedence is as follows:
 - &
 - ^
 - |
+
+The following list of comparison operators is supported:
+- ==
+- <=
+- >=
+- <
+- >
+- ||
+- &&
+
 ## WEEP17 19-Oct-2021 Woma Style Guide
 - Endeavour to name context managers either when bound using contextmanager or when declared in CamelCase, preferably both.
 - Matching is limited to single-letter variables due to bug, the will be maintained as the style until Aspidites 2.0.0 for backwards compatibility.
