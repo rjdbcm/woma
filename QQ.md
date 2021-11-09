@@ -124,9 +124,9 @@ Their precedence is as follows:
 The following list of comparison operators is supported:
 - ==
 - <=
-- >=
+- \>=
 - <
-- >
+- \>
 - ||
 - &&
 
